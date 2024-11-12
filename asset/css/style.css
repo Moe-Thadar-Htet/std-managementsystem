@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+   display: flex;
+}
+.sidebar{
+    width: 240px;
+    background-color: #29295d;
+    min-height:100vh;
+
+}
+.sidebar a,.sidebar p,.sidebar i{
+    color: #fff;
+
+
+}
+.sidebar a{
+    text-decoration: none;
+}
+.menu-iten a{
+    margin-left: 5px;
+}
+.menu{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.menu:hover{
+    background-color: #432e98;
+    border-left: 5px solid #fff;
+
+}
+.search{
+    border: 1px solid #adadad;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.search input{
+    border: none;
+    outline: none;
+    margin-left:8px;
+   
+}
+.content{
+    width: 100%;
+    background-color: #e9eaef;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+nav{
+    border-bottom: 4px solid #4040c9;
+}
+.card-icon{
+    font-size: 50px;
+    padding: 0px 15px;
+    border-radius: 50%;
+    background-color: #6464ef;
+    color:#fff;
+}
+.teacher-icon{
+    font-size: 50px;
+    padding: 0px 18px;
+    border-radius: 50%;
+    background-color: #ee9f9f;
+    color:#fff;
+
+}
+.class-icon{
+    font-size: 50px;
+    padding: 0px 18px;
+    border-radius: 50%;
+    background-color: #c4feb0;
+    color:#fff;
+    
+
+}
